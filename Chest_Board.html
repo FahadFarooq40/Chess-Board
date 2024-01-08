@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, p {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            border: 2px solid #333;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        td:nth-child(even) {
+            background-color: #dcdcdc;
+        }
+
+        td:nth-child(odd) {
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Chess Board</h1>
+    <p>A king cannot itself directly check the opposing king.</p>
+    <table border="1">
+        <tr width="50" height="50">
+            <td bgcolor="white">&#9820;</td>
+            <td bgcolor="black">&#9822;</td>
+            <td bgcolor="white">&#9821;</td>
+            <td bgcolor="black">&#9819;</td>
+            <td bgcolor="white">&#9818;</td>
+            <td bgcolor="black">&#9821;</td>
+            <td bgcolor="white">&#9822;</td>
+            <td bgcolor="black">&#9820;</td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="black">&#9823;</td>
+            <td bgcolor="white">&#9823;</td>
+            <td bgcolor="black">&#9823;</td>
+            <td bgcolor="white">&#9823;</td>
+            <td bgcolor="black">&#9823;</td>
+            <td bgcolor="white">&#9823;</td>
+            <td bgcolor="black">&#9823;</td>
+            <td bgcolor="white">&#9823;</td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+            <td bgcolor="black"></td>
+            <td bgcolor="white"></td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="white">&#9817;</td>
+            <td bgcolor="black">&#9817;</td>
+            <td bgcolor="white">&#9817;</td>
+            <td bgcolor="black">&#9817;</td>
+            <td bgcolor="white">&#9817;</td>
+            <td bgcolor="black">&#9817;</td>
+            <td bgcolor="white">&#9817;</td>
+            <td bgcolor="black">&#9817;</td>
+        </tr>
+        <tr width="50" height="50">
+            <td bgcolor="black">&#9814;</td>
+            <td bgcolor="white">&#9816;</td>
+            <td bgcolor="black">&#9815;</td>
+            <td bgcolor="white">&#9813;</td>
+            <td bgcolor="black">&#9812;</td>
+            <td bgcolor="white">&#9815;</td>
+            <td bgcolor="black">&#9816;</td>
+            <td bgcolor="white">&#9814;</td>
+        </tr>    </table>
+</body>
+</html>
